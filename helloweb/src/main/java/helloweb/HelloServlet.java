@@ -13,7 +13,7 @@ public class HelloServlet extends HttpServlet {
 	
 	@Override
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		response.setContentType("text/html; charset=utf-8");
+		request.setCharacterEncoding("UTF-8");
 		
 		response.setContentType("text/html; charset=utf-8");
 		
@@ -22,8 +22,8 @@ public class HelloServlet extends HttpServlet {
 	}
 
 	@Override
-	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-		//doGet(request, response);
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		doGet(request, response);
 	}
-
+	
 }
