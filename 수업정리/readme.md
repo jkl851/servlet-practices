@@ -1,5 +1,5 @@
 **JSP, Servlet 시작가이드_이클립스**
 
-** Servlet **
+**Servlet**
 
-** JSP실습 **
+**JSP실습**
