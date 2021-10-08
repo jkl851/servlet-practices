@@ -14,12 +14,12 @@
 	</welcome-file-list>
 	
 	<servlet>
-		<servlet-name>EmaillistController</servlet-name>
-		<servlet-class>com.douzone.emaillist.controller.EmaillistController</servlet-class>
+		<servlet-name>GuestbookController</servlet-name>
+		<servlet-class>com.douzone.guestbook.controller.GuestbookController</servlet-class>
 	</servlet>
 	<servlet-mapping>
-		<servlet-name>EmaillistController</servlet-name>
-		<url-pattern>/el</url-pattern>
+		<servlet-name>GuestbookController</servlet-name>
+		<url-pattern>/gc</url-pattern>
 	</servlet-mapping>
 	
 </web-app>

@@ -10,13 +10,14 @@
 <title>방명록</title>
 </head>
 <body>
-	<form method="post" action="delete.jsp">
+	<form method="post" action="/guestbook02/el">
+		<input type='hidden' name="a" value="check">
 		<input type="hidden" name="no" value=<%=strNo %>> <!-- value에 글 no -->
 		<input type="password" name="password">
 		<input type="submit" value="확인">
 	</form>
 	<br>
-	<a href="/emaillist02/el">메인으로 돌아가기</a></td>
+	<a href="index.jsp">메인으로 돌아가기</a></td>
 
 </body>
 </html>
