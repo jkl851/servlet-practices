@@ -12,11 +12,18 @@ import javax.servlet.http.HttpServletResponse;
 import com.douzone.guestbook01.dao.Guestbook01Dao;
 import com.douzone.guestbook01.vo.Guestbook01Vo;
 
+<<<<<<< HEAD
 
 
 public class GuestbookController extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 //test
+=======
+//test
+public class GuestbookController extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+
+>>>>>>> branch 'master' of https://github.com/jkl851/servlet-practices.git
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		request.setCharacterEncoding("utf-8");
 		
