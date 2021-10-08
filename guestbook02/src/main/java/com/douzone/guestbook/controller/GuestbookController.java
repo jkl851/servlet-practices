@@ -12,8 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 import com.douzone.guestbook01.dao.Guestbook01Dao;
 import com.douzone.guestbook01.vo.Guestbook01Vo;
 
-
-
+//test
 public class GuestbookController extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
