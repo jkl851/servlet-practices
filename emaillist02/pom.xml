@@ -5,10 +5,10 @@
     <artifactId>servlet-practices</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <artifactId>emaillist01</artifactId>
+  <artifactId>emaillist02</artifactId>
   <packaging>war</packaging>
   
-	<dependencies>
+  	<dependencies>
 		<dependency>
 			<groupId>org.mariadb.jdbc</groupId>
 			<artifactId>mariadb-java-client</artifactId>
@@ -17,18 +17,18 @@
 	</dependencies>
 
 	<build>
-		<finalName>emaillist01</finalName>
+		<finalName>emaillist02</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.codehaus.mojo</groupId>
 				<artifactId>tomcat-maven-plugin</artifactId>
 				<configuration>
 					<url>http://127.0.0.1:8088/manager/text</url>
-					<path>/emaillist01</path>
+					<path>/emaillist02</path>
 					<username>admin</username>
 					<password>manager</password>
 				</configuration>
 			</plugin>			
 		</plugins>
-	</build>  
+	</build>
 </project>
